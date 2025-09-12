@@ -19,7 +19,6 @@ dist/
 
 # Logs and reports
 *.log
-reports/
 allure-report/
 
 # IDE settings
