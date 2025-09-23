@@ -1,0 +1,2 @@
+2025-09-22 22:02:25,216 - INFO - automation - Starting test with search term: Automation Testing
+2025-09-22 22:02:25,875 - ERROR - automation - ❌ Test test_duckduckgo_search[Automation Testing] failed. Screenshot saved at reports/screenshots/test_duckduckgo_search[Automation Testing]_20250922_220225_failure.png

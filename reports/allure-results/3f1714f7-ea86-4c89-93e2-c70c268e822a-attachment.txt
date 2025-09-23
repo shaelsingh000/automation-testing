@@ -1,0 +1,5 @@
+2025-09-22 20:30:56,468 - INFO - automation - 🚀 Starting test with search term: Selenium Python
+2025-09-22 20:30:58,177 - INFO - automation - 🌐 Opened DuckDuckGo homepage
+2025-09-22 20:31:00,846 - INFO - automation - 🔍 Searching for: Selenium Python
+2025-09-22 20:31:01,264 - INFO - automation - First result text: Write your first Selenium script
+2025-09-22 20:31:01,267 - INFO - automation - ✅ Search successful for: Selenium Python

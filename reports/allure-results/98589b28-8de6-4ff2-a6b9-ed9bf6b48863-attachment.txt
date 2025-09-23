@@ -1,0 +1,2 @@
+2025-09-22 22:02:18,610 - INFO - automation - Starting test with search term: Pytest Tutorial
+2025-09-22 22:02:18,781 - ERROR - automation - ❌ Test test_duckduckgo_search[Pytest Tutorial] failed. Screenshot saved at reports/screenshots/test_duckduckgo_search[Pytest Tutorial]_20250922_220218_failure.png
