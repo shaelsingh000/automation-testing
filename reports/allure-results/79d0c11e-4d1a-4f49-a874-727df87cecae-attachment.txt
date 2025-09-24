@@ -1,0 +1,1 @@
+2025-09-24 11:49:27,824 - ERROR - automation - ❌ Test test_duckduckgo_search failed. Screenshot saved at reports/screenshots/test_duckduckgo_search_20250924_114927_failure.png
