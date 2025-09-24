@@ -1,0 +1,4 @@
+2025-09-23 21:28:34,913 - INFO - automation - Starting test with search term: Pytest Tutorial
+2025-09-23 21:28:35,897 - INFO - automation - Opened DuckDuckGo
+2025-09-23 21:28:40,016 - INFO - automation - Searching for: Pytest Tutorial
+2025-09-23 21:28:40,316 - INFO - automation - First result text: Pytest Tutorial

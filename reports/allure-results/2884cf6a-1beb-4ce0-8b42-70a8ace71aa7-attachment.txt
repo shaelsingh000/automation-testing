@@ -1,5 +1,0 @@
-2025-09-22 20:31:19,604 - INFO - automation - 🚀 Starting test with search term: Automation Testing
-2025-09-22 20:31:19,823 - INFO - automation - 🌐 Opened DuckDuckGo homepage
-2025-09-22 20:31:21,360 - INFO - automation - 🔍 Searching for: Automation Testing
-2025-09-22 20:31:23,357 - INFO - automation - First result text: Automation Testing - Software Testing - GeeksforGeeks
-2025-09-22 20:31:23,358 - INFO - automation - ✅ Search successful for: Automation Testing
