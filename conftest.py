@@ -2,6 +2,7 @@ import pytest
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from utils.logger import logger   # Import the singleton logger
 
@@ -9,8 +10,11 @@ from utils.logger import logger   # Import the singleton logger
 @pytest.fixture
 def driver():
     """Fixture to initialize and quit Chrome WebDriver."""
-    options = webdriver.ChromeOptions()
-    options.add_argument("--start-maximized")
+    options = Options()
+    options.add_argument("--headless=new")   # for stable CI/parallel
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    service = Service()
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
     yield driver  # Test runs here

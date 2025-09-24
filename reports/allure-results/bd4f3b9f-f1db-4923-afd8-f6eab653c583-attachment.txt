@@ -1,0 +1,1 @@
+2025-09-24 11:49:19,882 - ERROR - automation - ❌ Test test_duckduckgo_search[Selenium Python] failed. Screenshot saved at reports/screenshots/test_duckduckgo_search[Selenium Python]_20250924_114919_failure.png
