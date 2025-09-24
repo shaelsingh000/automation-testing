@@ -1,0 +1,1 @@
+2025-09-24 11:49:46,372 - ERROR - automation - ❌ Test test_duckduckgo_search[Pytest Tutorial] failed. Screenshot saved at reports/screenshots/test_duckduckgo_search[Pytest Tutorial]_20250924_114946_failure.png

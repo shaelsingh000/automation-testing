@@ -1,6 +1,7 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+<<<<<<< HEAD
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
@@ -19,6 +20,25 @@ def driver(request):
         driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
     driver.maximize_window()
     yield driver
+=======
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+from utils.logger import logger   # Import the singleton logger
+
+
+@pytest.fixture
+def driver():
+    """Fixture to initialize and quit Chrome WebDriver."""
+    options = Options()
+    options.add_argument("--headless=new")   # for stable CI/parallel
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    service = Service()
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
+    yield driver  # Test runs here
+
+>>>>>>> 923be6d3d1c2562cd7b59909f07e22f17a6c70e1
     driver.quit()
 
 # Capture screenshot on failure
