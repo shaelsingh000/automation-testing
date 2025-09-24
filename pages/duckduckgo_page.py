@@ -1,18 +1,22 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from pages.base_page import BasePage
+import allure
 
 class DuckDuckGoPage(BasePage):
-    URL = "https://duckduckgo.com/"
+    SEARCH_INPUT = (By.NAME, "q")        # Usually the search input uses name="q"# Might still work; inspect
+    SEARCH_RESULTS = (By.CSS_SELECTOR, "a.result__a")
 
-    SEARCH_INPUT = (By.ID, "searchbox_input")  # verify in browser
-    RESULT_LINKS = (By.CSS_SELECTOR, "a[data-testid='result-title-a']")
+    @allure.step("Open DuckDuckGo homepage")
+    def open_homepage(self):
+        self.open("https://duckduckgo.com/")
 
-    def load(self):
-        self.open(self.URL)
-
+    @allure.step("Search for term: {term}")
     def search(self, term):
         self.type(*self.SEARCH_INPUT, text=term)
-        self.driver.find_element(*self.SEARCH_INPUT).submit()
-
-    def get_first_result(self):
-        return self.wait(self.RESULT_LINKS)
+        self.find(self.SEARCH_INPUT).send_keys(Keys.RETURN) 
+    
+    @allure.step("Get search results for validation")
+    def get_results(self):
+        elements = self.wait_all(self.SEARCH_RESULTS)
+        return [elem.text for elem in elements]

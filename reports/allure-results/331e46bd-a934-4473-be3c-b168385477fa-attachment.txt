@@ -1,0 +1,6 @@
+2025-09-23 21:28:01,904 - INFO - test_duckduckgo_search_day15 - Starting test with search term: Pytest Tutorial
+2025-09-23 21:28:11,550 - INFO - test_duckduckgo_search_day15 - Opened DuckDuckGo
+2025-09-23 21:28:15,933 - INFO - test_duckduckgo_search_day15 - Searching for: Pytest Tutorial
+2025-09-23 21:28:16,120 - INFO - test_duckduckgo_search_day15 - Found 10 results
+2025-09-23 21:28:16,173 - INFO - test_duckduckgo_search_day15 - First result text: Pytest Tutorial - Unit Testing in Python using Pytest Framework
+2025-09-23 21:28:16,173 - INFO - test_duckduckgo_search_day15 - Test passed for Pytest Tutorial

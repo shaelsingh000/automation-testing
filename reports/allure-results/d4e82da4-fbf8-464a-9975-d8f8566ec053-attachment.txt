@@ -1,0 +1,9 @@
+[32mINFO    [0m WDM:logger.py:11 xdist worker is: gw3
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\shael\.wdm\gw3\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m automation:test_duckduckgo_search_Day17.py:29 Starting test with search term: Automation Testing
+[32mINFO    [0m automation:test_duckduckgo_search_Day17.py:33 Opened DuckDuckGo
+[32mINFO    [0m automation:test_duckduckgo_search_Day17.py:42 Searching for: Automation Testing
+[32mINFO    [0m automation:test_duckduckgo_search_Day17.py:52 First result text: Automation Testing - Software Testing - GeeksforGeeks

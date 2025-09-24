@@ -1,0 +1,11 @@
+[32mINFO    [0m test_duckduckgo_search_day15:test_duckduckgo_search_day15.py:20 Starting test with search term: Pytest Tutorial
+[32mINFO    [0m WDM:logger.py:11 xdist worker is: gw2
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\shael\.wdm\gw2\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m test_duckduckgo_search_day15:test_duckduckgo_search_day15.py:31 Opened DuckDuckGo
+[32mINFO    [0m test_duckduckgo_search_day15:test_duckduckgo_search_day15.py:37 Searching for: Pytest Tutorial
+[32mINFO    [0m test_duckduckgo_search_day15:test_duckduckgo_search_day15.py:47 Found 10 results
+[32mINFO    [0m test_duckduckgo_search_day15:test_duckduckgo_search_day15.py:50 First result text: Pytest Tutorial - Unit Testing in Python using Pytest Framework
+[32mINFO    [0m test_duckduckgo_search_day15:test_duckduckgo_search_day15.py:56 Test passed for Pytest Tutorial
