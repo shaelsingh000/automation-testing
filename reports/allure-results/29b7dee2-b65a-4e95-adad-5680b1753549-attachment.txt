@@ -1,5 +1,0 @@
-2025-09-22 20:31:10,424 - INFO - automation - 🚀 Starting test with search term: Pytest Tutorial
-2025-09-22 20:31:11,181 - INFO - automation - 🌐 Opened DuckDuckGo homepage
-2025-09-22 20:31:11,897 - INFO - automation - 🔍 Searching for: Pytest Tutorial
-2025-09-22 20:31:13,468 - INFO - automation - First result text: Pytest Tutorial
-2025-09-22 20:31:13,496 - INFO - automation - ✅ Search successful for: Pytest Tutorial

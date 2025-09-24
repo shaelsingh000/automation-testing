@@ -1,5 +1,0 @@
-[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
-[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
-[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
-[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\shael\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
-[32mINFO    [0m automation:test_duckduckgo_search_dd.py:12 Starting test with search term: Selenium Python

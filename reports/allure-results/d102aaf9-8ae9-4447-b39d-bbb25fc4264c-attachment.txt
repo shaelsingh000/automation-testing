@@ -1,2 +1,0 @@
-2025-09-22 22:02:05,619 - INFO - automation - Starting test with search term: Selenium Python
-2025-09-22 22:02:06,226 - ERROR - automation - ❌ Test test_duckduckgo_search[Selenium Python] failed. Screenshot saved at reports/screenshots/test_duckduckgo_search[Selenium Python]_20250922_220206_failure.png
